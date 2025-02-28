@@ -17,3 +17,10 @@ def dfs(visitedNode, graph, node):
             
             
 Snode = input("Enter starting node (A, B, C, D, E): ").upper()
+
+
+if Snode in graph:
+    print("DFS Result:")
+    dfs(visitedNode, graph, Snode)
+else:
+    print("Invalid starting node! Please enter a valid node (A, B, C, D, E).")
