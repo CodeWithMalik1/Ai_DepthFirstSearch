@@ -5,3 +5,4 @@ graph = {
     'D': ['B', 'E'],
     'E': ['C', 'D']
 }
+visitedNode = [] 
