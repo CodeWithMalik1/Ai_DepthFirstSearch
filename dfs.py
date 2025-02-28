@@ -14,3 +14,6 @@ def dfs(visitedNode, graph, node):
         visitedNode.append(node)  # Mark node as visited
         for neighbour in graph[node]:  # Iterate over adjacent nodes
             dfs(visitedNode, graph, neighbour)  # Recursively call DFS
+            
+            
+Snode = input("Enter starting node (A, B, C, D, E): ").upper()
